@@ -36,12 +36,15 @@ export class InFrontOfYou extends React.Component {
 
 export class ButcherShop extends React.Component {
   render(){
-    return (
-    <div>
-      <p>You shouldn't look too far.</p>
-      <p>Sometimes, the solution is right in front of you.</p>
-    </div>
-    )
+    <div class="butcher-shop">
+  <p>Hello! We have the following products for sale today:</p>
+  <ul>
+    <li>Tenderloin</li>
+    <li>Short ribs</li>
+    <li>Beef shin</li>
+    <li>Ribeye</li>
+  </ul>
+</div>
 }
 }
 
