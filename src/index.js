@@ -36,8 +36,8 @@ export class InFrontOfYou extends React.Component {
 
 export class ButcherShop extends React.Component {
   render(){
+    return(
     <div class="butcher-shop">
-    const products = BUTCHER_PRODUCTS.map((p, idx) => (<li key={idx}>{p}</li>))
   <p>Hello! We have the following products for sale today:</p>
   <ul>
     <li>Tenderloin</li>
@@ -45,7 +45,7 @@ export class ButcherShop extends React.Component {
     <li>Beef shin</li>
     <li>Ribeye</li>
   </ul>
-</div>
+</div>)
 }
 }
 
