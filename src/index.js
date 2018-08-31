@@ -39,7 +39,7 @@ export class ButcherShop extends React.Component {
     <div>
   <p>You shouldn't look too far.</p>
   <p>Sometimes, the solution is right in front of you.</p>
-</div>
+  </div>
     )
 }
 }
