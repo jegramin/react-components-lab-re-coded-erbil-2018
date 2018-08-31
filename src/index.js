@@ -23,10 +23,17 @@ export class OlderCoaster extends React.Component {
 }
 
 export class InFrontOfYou extends React.Component {
-  <div>
-  <p>You shouldn't look too far.</p>
-  <p>Sometimes, the solution is right in front of you.</p>
-</div>
+   render(){
+    return (
+    <div class="oldercoaster">
+  <p>Two grannies having the time of their life!</p>
+  <p>Passengers:</p>
+  <ul>
+    <li>Agnes</li>
+    <li>Muriel</li>
+  </ul>
+</div>)
+}
 }
 
 export class ButcherShop extends React.Component {
